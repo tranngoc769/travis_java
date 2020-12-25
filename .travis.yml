@@ -5,7 +5,7 @@ cache: bundler
 script:
  - dotnet restore
  – xbuild /p:Configuration=Release Triangle.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.11.1/tools/nunit3-console.exe ./Triangle.Tests/bin/Release/Triangle.dll
+  – mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Triangle.Test/bin/Release/Triangle.Test.dll
 install:
   – nuget restore Triangle.sln
   - nuget install NUnit.Console -Version 3.11.1 -OutputDirectory testrunner
