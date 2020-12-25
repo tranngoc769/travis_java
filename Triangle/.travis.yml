@@ -1,0 +1,4 @@
+﻿language: csharp
+solution: Triangle.sln
+install:
+  - nuget restore Triangle.sln
