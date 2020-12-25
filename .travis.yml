@@ -3,6 +3,4 @@ solution: Triangle.sln
 dotnet: 3.1.302
 install:
   – nuget restore Triangle.sln
-script: ./build.sh
-mono:
-  - latest
+
