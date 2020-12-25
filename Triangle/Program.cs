@@ -12,7 +12,7 @@ namespace Triangle
         }
         public int getY()
         {
-            return y;
+            return y-98;
         }
         public void setX(int x)
         {
