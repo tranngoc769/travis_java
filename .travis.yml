@@ -1,6 +1,7 @@
 ﻿language: csharp
 solution: Triangle.sln
 dotnet: 3.1.302
+cache: bundler
 script:
  - dotnet restore
  – xbuild /p:Configuration=Release Triangle.sln
