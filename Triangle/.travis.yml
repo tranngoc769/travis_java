@@ -2,3 +2,6 @@
 solution: Triangle.sln
 install:
   – nuget restore Triangle.sln
+script: ./build.sh
+mono:
+  - latest
