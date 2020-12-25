@@ -104,3 +104,4 @@ C:\Users\QUANG\source\repos\Triangle\Triangle\obj\Release\netcoreapp3.1\Triangle
 C:\Users\QUANG\source\repos\Triangle\Triangle\obj\Release\netcoreapp3.1\Triangle.dll
 C:\Users\QUANG\source\repos\Triangle\Triangle\obj\Release\netcoreapp3.1\Triangle.pdb
 C:\Users\QUANG\source\repos\Triangle\Triangle\obj\Release\netcoreapp3.1\Triangle.genruntimeconfig.cache
+C:\Users\QUANG\source\repos\Triangle\Triangle\obj\Release\netcoreapp3.1\Triangle.csprojAssemblyReference.cache
