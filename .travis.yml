@@ -6,5 +6,5 @@ install:
     - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release Triangle.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./MyProject.Tests/bin/Release/netcoreapp3.1/Triangle.Tests.dll
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./MyProject.Tests/bin/Release/Triangle.Tests.dll
 #  – mono ./testrunner/NUnit.ConsoleRunner.3.2.0/tools/nunit3-console.exe ./Triangle.Test/bin/Release/netcoreapp3.1/Triangle.Test.dll
