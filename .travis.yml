@@ -2,6 +2,7 @@
 solution: Triangle.sln
 dotnet: 3.1.302
 install:
+    - nuget restore Triangle.sln
     - nuget install NUnit.Runners -Version 3.2.0 -OutputDirectory testrunner
 script:
  – mono ./testrunner/NUnit.Runners.3.2.0/tools/nunit-console.exe ./Triangle.Test/bin/Release/Triangle.Test.dll
