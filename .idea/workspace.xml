@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe64d73f-02c1-4aaa-a83f-41a7d2d5346e" name="Default Changelist" comment="" />
+    <list default="true" id="fe64d73f-02c1-4aaa-a83f-41a7d2d5346e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609049997196</updated>
-      <workItem from="1609049999780" duration="15322000" />
+      <workItem from="1609049999780" duration="15441000" />
     </task>
     <servers />
   </component>

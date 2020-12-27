@@ -16,9 +16,9 @@ public class TestTamGiac {
     @Before
     public void init() {
 //        1 : Deu , 2 : Can  , 3 : VUong , 4 Vuong Can  : Thuong
-        Double[] arr = new Double[]{ 3.0,1.0,4.0,1.0,4.0,6.0,1.0};
-        ChuViExpect = 11.099;
-        loaiExpect = 5;
+        Double[] arr = new Double[]{ 4.0,4.0,-2.0,-2.0,10.0,-2.0,4};
+        ChuViExpect = 28.971;
+        loaiExpect = 4;
         ChuViExpect = Math.floor(ChuViExpect * 100) / 100;
         double Ax = arr[0];
         double Ay = arr[1];
