@@ -16,9 +16,9 @@ public class TestTamGiac {
     @Before
     public void init() {
 //        1 : Deu , 2 : Can  , 3 : VUong , 4 Vuong Can  : Thuong
-        Double[] arr = new Double[]{ 0.0,0.0,0.0,0.0,0.0,0.0};
-        ChuViExpect = 28.971;
-        loaiExpect = 4;
+        Double[] arr = new Double[]{ 3.0,1.0,4.0,1.0,4.0,6.0,1.0};
+        ChuViExpect = 12;
+        loaiExpect = 5;
         ChuViExpect = Math.floor(ChuViExpect * 100) / 100;
         double Ax = arr[0];
         double Ay = arr[1];
@@ -48,7 +48,7 @@ public class TestTamGiac {
     @Test
     public void  ChuViTamGiac()
     {
-        assertEquals("Chu vi : ",ChuViExpect, tamgiac.ChuViTamGiac(), 2);
+        assertEquals("Chu vi : ",ChuViExpect, tamgiac.ChuViTamGiac(), 0);
     }
     @Test
     public void LoaiTamGiac()
