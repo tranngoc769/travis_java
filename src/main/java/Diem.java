@@ -1,7 +1,7 @@
 public class Diem {
-    public int x;
-    public  int y;
-    public  Diem(int x, int y)
+    public double x;
+    public  double y;
+    public  Diem(double x, double y)
     {
         this.x = x;
         this.y = y;

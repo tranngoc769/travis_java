@@ -12,21 +12,27 @@ import static org.junit.Assert.assertTrue;
 public class TestTamGiac {
     private  TamGiac tamgiac;
     private double ChuViExpect;
+    private int loaiExpect = 1;
     @Before
     public void init() {
-        int Ax = 1;
-        int Bx = 5;
-        int Cx = 2;
-        int Ay = 6;
-        int By = 5;
-        int Cy = 6;
-        ChuViExpect = 8.28538328578604;
+
+//        1 : Deu , 2 : Can  , 3 : VUong , 4 Vuong Can  : Thuong
+        Double[] arr = new Double[]{ 4.0, 0.0,0.0,0.0,2.0, 3.464101615};
+        ChuViExpect = 12;
+        loaiExpect = 1;
+        ChuViExpect = Math.floor(ChuViExpect * 100) / 100;
+        double Ax = arr[0];
+        double Ay = arr[1];
+        double Bx = arr[2];
+        double By = arr[3];
+        double Cx = arr[4];
+        double Cy = arr[5];
         tamgiac = new TamGiac(new Diem(Ax,Ay), new Diem(Bx,By), new Diem(Cx,Cy));
         tamgiac.TinhDoDaiCanh();
     }
     @Test
     public void testDoDaiCanh1() {
-            assertEquals("Do Dai 1",true,tamgiac.dodaicanh1 > 0);
+        assertEquals("Do Dai 1",true,tamgiac.dodaicanh1 > 0);
     }
     @Test
     public void testDoDaiCanh2() {
@@ -34,7 +40,6 @@ public class TestTamGiac {
     }
     @Test
     public void testDoDaiCanh3() {
-
         assertEquals("Do Dai 3",true,tamgiac.dodaicanh3 > 0);
     }
     @Test
@@ -44,6 +49,11 @@ public class TestTamGiac {
     @Test
     public void  ChuViTamGiac()
     {
-        assertEquals("Chu vi : ",ChuViExpect, tamgiac.ChuViTamGiac(), 0);
+        assertEquals("Chu vi : ",ChuViExpect, tamgiac.ChuViTamGiac(), 2);
+    }
+    @Test
+    public void LoaiTamGiac()
+    {
+        assertEquals("Loai Tam Giac: ",loaiExpect, tamgiac.LoaiTamGiac());
     }
 }

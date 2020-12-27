@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe64d73f-02c1-4aaa-a83f-41a7d2d5346e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Diem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TamGiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TamGiac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Diem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Diem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDiem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TamGiac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TamGiac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTamGiac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestTamGiac.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -70,9 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTamGiac.ChuViTamGiac" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TravisJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTamGiac" />
+      <option name="METHOD_NAME" value="ChuViTamGiac" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestTamGiac" />
+        <item itemvalue="JUnit.TestTamGiac.ChuViTamGiac" />
         <item itemvalue="JUnit.TestDiem" />
       </list>
     </recent_temporary>
@@ -85,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609049997196</updated>
-      <workItem from="1609049999780" duration="3055000" />
+      <workItem from="1609049999780" duration="13680000" />
     </task>
     <servers />
   </component>
@@ -102,5 +113,34 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TamGiac.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TamGiac.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TamGiac.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="2 * dodaicanh1 * dodaicanh1" language="JAVA" />
+        <watch expression="dodaicanh3  * dodaicanh3 " language="JAVA" />
+        <watch expression="Math.ceil(dodaicanh3  * dodaicanh3)" language="JAVA" />
+        <watch expression="Math.ceil(dodaicanh2)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
