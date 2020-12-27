@@ -9,5 +9,4 @@ cache:
   - $HOME/.m2
   - $HOME/.gradle
 script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - mvn test -B
+  - mvn clean verify
