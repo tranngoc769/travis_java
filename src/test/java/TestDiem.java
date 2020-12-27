@@ -15,7 +15,7 @@ public class TestDiem {
 
     @Test
     public void testAdd() {
-        assertEquals(4, calculation.add(1, 3));
+        assertEquals(4, calculation.add(1, 1));
     }
 
     @Test
