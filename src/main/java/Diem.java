@@ -1,11 +1,14 @@
 public class Diem {
-
-    public int add(int a, int b) {
-        return a + b;
+    public int x;
+    public  int y;
+    public  Diem(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
     }
-
-    public int sub(int a, int b) {
-        return a - b;
+    public double dodaidendiem(Diem B)
+    {
+        double dodai = Math.sqrt( Math.pow(x-B.x,2) + Math.pow(y-B.y,2));
+        return dodai;
     }
-
 }
