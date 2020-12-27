@@ -10,3 +10,4 @@ cache:
   - $HOME/.gradle
 script:
   - mvn clean verify
+  - mvn test -B
