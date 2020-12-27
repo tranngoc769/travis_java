@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe64d73f-02c1-4aaa-a83f-41a7d2d5346e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Diem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TamGiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TamGiac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTamGiac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Diem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Diem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TamGiac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TamGiac.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestTamGiac.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestTamGiac.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -96,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609049997196</updated>
-      <workItem from="1609049999780" duration="13680000" />
+      <workItem from="1609049999780" duration="14869000" />
     </task>
     <servers />
   </component>
